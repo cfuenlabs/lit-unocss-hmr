@@ -1,10 +1,6 @@
 {
   "name": "components",
   "version": "1.0.0",
-  "exports": {
-    "./example-element.ts": "./dist/my-element.mjs",
-    "./example-element2.ts": "./dist/my-element2.mjs"
-  },
   "files": [
     "dist",
     "types"
@@ -27,9 +23,5 @@
     "unocss": "latest",
     "vite": "^4.4.11",
     "vite-plugin-inspect": "^0.7.40"
-  },
-  "stackblitz": {
-    "installDependencies": false,
-    "startCommand": "node .stackblitz.mjs && npm install && npm run dev"
   }
 }

@@ -6,11 +6,12 @@
     "dist",
     "types"
   ],
+
   "scripts": {
-    "build-lib": "cd src/components/dist && pnpm build",
-    "build-lib-watch": "cd src/components/dist && pnpm build-watch",
+    "build-lib": "cd src/components/dist && npm run build",
+    "build-lib-watch": "cd src/components/dist && npm run build-watch",
     "build": "tsc && vite build",
-    "dev": "concurrently \"vite\" \"pnpm build-lib-watch\""
+    "dev": "concurrently \"vite\" \"npm run build-lib-watch\""
   },
   "dependencies": {
     "lit": "^2.8.0"
@@ -26,9 +27,5 @@
     "unocss": "latest",
     "vite": "^4.4.11",
     "vite-plugin-inspect": "^0.7.40"
-  },
-  "stackblitz": {
-    "installDependencies": false,
-    "startCommand": "node .stackblitz.mjs && npm install && npm run dev"
   }
 }

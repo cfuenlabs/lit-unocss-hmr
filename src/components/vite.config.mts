@@ -7,11 +7,10 @@ import presetAttributify from '@unocss/preset-attributify'
 import presetTypography from '@unocss/preset-typography'
 import ViteInspector from 'vite-plugin-inspect'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   build: {
     lib: {
-      entry: ['example-element.ts', 'example-element2.ts'],
+      entry: ['./example-element.ts', './example-element2.ts'],
       formats: ['es'],
     },
     rollupOptions: {
@@ -21,11 +20,7 @@ export default defineConfig({
   plugins: [
     UnoCSS({
       mode: 'shadow-dom',
-      shortcuts: [
-        ['sl-input-border', 'border-solid border-[var(--sl-input-border-color)] border-1'],
-        ['sl-panel-bg', 'bg-[var(--sl-panel-background-color)]'],
-        ['sl-shadow-sm', 'shadow-[var(--sl-shadow-x-small)]'],
-      ],
+      shortcuts: [],
       presets: [
         presetUno(),
         presetAttributify(),
