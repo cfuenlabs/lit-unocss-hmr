@@ -6,7 +6,6 @@
     "types"
   ],
   "scripts": {
-    "dev": "cd ../../ && vite",
     "build": "tsc && vite build",
     "build-watch": "tsc && vite build --watch"
   },
