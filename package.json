@@ -8,8 +8,8 @@
   ],
 
   "scripts": {
-    "build-lib": "cd src/components/dist && npm run build",
-    "build-lib-watch": "cd src/components/dist && npm run build-watch",
+    "build-lib": "cd src/components/ && npm run build",
+    "build-lib-watch": "cd src/components/ && npm run build-watch",
     "build": "tsc && vite build",
     "dev": "concurrently \"vite\" \"npm run build-lib-watch\""
   },
