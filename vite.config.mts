@@ -15,7 +15,6 @@ export default defineConfig({
     rollupOptions: {
       external: /^lit/,
     },
-    outDir: "./src/server/public",
   },
   plugins: [
     UnoCSS({
