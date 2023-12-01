@@ -15,8 +15,9 @@
     "emitDeclarationOnly": true,
     "outDir": "./types",
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false
   },
   "include": ["./"],
-  "exclude": ["./src/components/*/**"]
+  "exclude": ["./src/components/*/**", "./types/**/*"]
 }
