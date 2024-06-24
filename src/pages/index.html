@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; width: 100%;">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lit + UnoCSS - CFuenLabs Template</title>
+		<script type="module" src="/assets/sample-element.js"></script>
+	</head>
+
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap");
+
+		:root {
+			background-color: #f5f1ed;
+			font-family: "Inter", sans-serif;
+		}
+
+	</style>
+
+	<body m-0 bgcolor="#18181B" h-full w-full flex flex-row justify-center items-center>
+		<cfuenlabs-rules></cfuenlabs-rules>
+	</body>
+
+	<!-- to activate unocss -->
+	<script type="module">
+    import "uno.css";
+    import "@unocss/reset/sanitize/sanitize.css";
+    import "@unocss/reset/sanitize/assets.css";
+	</script>
+</html>
