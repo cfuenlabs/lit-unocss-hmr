@@ -70,6 +70,6 @@ By default, the commands use npm, so you need to change them in order to use pnp
 },
 ```
 
-<h2> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="18px"> Typescript <h2>
+<h2> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="18px"> Typescript </h2>
 
 Make sure you take a look at the `tsconfig.json` or bring your own Typescript config file, because if there's anything bothering you about the default configuration, such as `strictPropertyInitialization` being set to `false`, you should change it!
