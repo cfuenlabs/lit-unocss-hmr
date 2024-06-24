@@ -1,10 +1,10 @@
 # lit-unocss-vite
 
 <div align="center">
-<img src="https://vitejs.dev/logo-with-shadow.png" height="100px">
-<img src="https://images.opencollective.com/unocss/040a0fb/logo/256.png" height="90px">
-<span>      </span>
 <img src="https://cdn.worldvectorlogo.com/logos/lit-1.svg" height="90px">
+<span>      </span>
+<img src="https://images.opencollective.com/unocss/040a0fb/logo/256.png" height="90px">
+<img src="https://vitejs.dev/logo-with-shadow.png" height="100px">
 </div>
 
 A pretty good Lit + UnoCSS starter
