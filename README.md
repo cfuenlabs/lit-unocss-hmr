@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="https://cdn.worldvectorlogo.com/logos/lit-1.svg" height="90px">
-<span>      </span>
+<span>     </span>
 <img src="https://images.opencollective.com/unocss/040a0fb/logo/256.png" height="90px">
 <img src="https://vitejs.dev/logo-with-shadow.png" height="100px">
 </div>
@@ -15,6 +15,12 @@ A pretty good Lit + UnoCSS starter
 - Hot server reload everytime the components build
 
 ## ✏️📋 Project Structure and Workflow
+
+Once you run the `dev` command specified in the project's `package.json`...
+
+- Your components go in `src/components/`
+- When components are compiled, the output is generated in `src/pages/assets/`
+- Your pages (html files) go in `src/pages/`
 
 ```
 dist/
@@ -37,11 +43,7 @@ tsconfig.json
 unocss.config.ts
 ```
 
-- Your components go in `src/components/`
-- When components are compiled, the output is generated in `src/pages/assets/`
-- Your pages (html files) go in `src/pages/`
-
-When you import the generated web components in your HTML, you must...
+And, when you import the generated web components in your HTML, you must...
 
 - import from `/assets/`
 - end the filename in `.js`.
